@@ -1,6 +1,6 @@
 services:
   - type: static_site
-    name: PortifolioCibele
+    name: PortifolioJorge
     env: static
     static_publish_path: /
     build_command: ""
