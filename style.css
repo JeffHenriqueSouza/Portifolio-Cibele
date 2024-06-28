@@ -110,8 +110,6 @@ ul li:last-child {
     padding: 5px 0;
 }
 
-
-
 .social-media {
     margin-top: 2rem;
     display: flex;
@@ -162,7 +160,6 @@ ul li:last-child {
 .project-list a:hover {
     color: #0073e6;
 }
-
 
 .profile-pic {
     width: 150px;
@@ -312,9 +309,11 @@ ul li:last-child {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
 
 .photo-gallery img {
+    flex: 1 1 calc(33% - 10px);
     max-width: calc(33% - 20px);
     height: auto;
     border-radius: 8px;
