@@ -70,9 +70,53 @@ ul li:last-child {
     background-color: #50bfbf;
 }
 
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 18px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.skills-list li:last-child {
+    border-bottom: none;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-list > li {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.experience-list > li:last-child {
+    border-bottom: none;
+}
+
+.experience-list ul {
+    list-style: none;  /* Remove as bolinhas das listas aninhadas */
+    padding-left: 20px;
+}
+
+.experience-list ul li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+
+
 .social-media {
     margin-top: 2rem;
     display: flex;
+    margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+    
 }
 
 .social-media a {
@@ -93,6 +137,32 @@ ul li:last-child {
     background-color: #fff;
     color: #60e1e0;
 }
+
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-list li {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-list li:last-child {
+    border-bottom: none;
+}
+
+.project-list a {
+    text-decoration: none;
+    color: #60e1e0;
+    transition: color 0.3s;
+}
+
+.project-list a:hover {
+    color: #0073e6;
+}
+
 
 .profile-pic {
     width: 150px;
